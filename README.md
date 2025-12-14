@@ -132,6 +132,25 @@ Example API services to integrate:
 - **Translation**: Google Translate API, DeepL API
 - **Text-to-Speech**: Google Cloud TTS, Amazon Polly, Azure Speech
 
+## Deployment
+
+### Deploy to VPS (Hostinger)
+
+For detailed deployment instructions, see:
+- **[QUICK_DEPLOY.md](./QUICK_DEPLOY.md)** - Quick start guide
+- **[DEPLOYMENT.md](./DEPLOYMENT.md)** - Complete deployment guide
+
+**Quick Steps:**
+1. Upload files to VPS: `/var/www/weloveai.cloud`
+2. Install Node.js and Nginx
+3. Run `npm install && npm run build`
+4. Configure Nginx with provided `nginx.conf`
+5. Set up SSL with Let's Encrypt
+
+**VPS Details:**
+- IP: `62.72.12.45`
+- Domain: `weloveai.cloud`
+
 ## Browser Support
 
 - Chrome (latest)
