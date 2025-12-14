@@ -132,24 +132,37 @@ Example API services to integrate:
 - **Translation**: Google Translate API, DeepL API
 - **Text-to-Speech**: Google Cloud TTS, Amazon Polly, Azure Speech
 
-## Deployment
+## 🚀 Deployment - Mobile Edition
 
-### Deploy to VPS (Hostinger)
+**Perfect for beginners working from mobile phone!**
 
-For detailed deployment instructions, see:
-- **[QUICK_DEPLOY.md](./QUICK_DEPLOY.md)** - Quick start guide
-- **[DEPLOYMENT.md](./DEPLOYMENT.md)** - Complete deployment guide
+### 📱 Quick Start (Mobile)
 
-**Quick Steps:**
-1. Upload files to VPS: `/var/www/weloveai.cloud`
-2. Install Node.js and Nginx
-3. Run `npm install && npm run build`
-4. Configure Nginx with provided `nginx.conf`
-5. Set up SSL with Let's Encrypt
+**Start here if deploying from mobile:**
+
+1. **[MOBILE_QUICK_START.md](./MOBILE_QUICK_START.md)** ⭐ - Super simple quick guide (start here!)
+2. **[CHECKLIST.md](./CHECKLIST.md)** - Printable checklist to track progress
+3. **[GITHUB_SETUP_MOBILE.md](./GITHUB_SETUP_MOBILE.md)** - How to upload code to GitHub from mobile
+4. **[DEPLOYMENT_MOBILE.md](./DEPLOYMENT_MOBILE.md)** - Complete detailed guide with troubleshooting
+
+### 🎯 Quick Overview
+
+1. **Upload code to GitHub** (using GitHub mobile app or Codespaces)
+2. **Connect to VPS** via SSH app (Termux/Termius)
+3. **Install software** (Node.js, Nginx, Git)
+4. **Clone repository** from GitHub
+5. **Build website** (`npm install && npm run build`)
+6. **Configure Nginx** (copy config file)
+7. **Setup SSL** (Let's Encrypt certificate)
 
 **VPS Details:**
 - IP: `62.72.12.45`
 - Domain: `weloveai.cloud`
+
+### 📚 Desktop Deployment Guides
+
+- **[QUICK_DEPLOY.md](./QUICK_DEPLOY.md)** - Quick reference (desktop)
+- **[DEPLOYMENT.md](./DEPLOYMENT.md)** - Complete guide (desktop)
 
 ## Browser Support
 
